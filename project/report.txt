@@ -1,0 +1,14 @@
+1.
+	The data collected from twitch does not explicitly show how popular one game is, and how time of broadcasting is distributed throughout the day.
+
+	Want to answer a question regarding the popularity of a game, or a category of game, by evaluating data in twitch. Also want to find out how broadcasters on twitch are distributed.
+
+	To answer question one, need to understand the data structrue which twitch uses to store its stream information. Also need to pick some perspectives that could convey a convincing meaning of 'popularity'. The challenge is how to find the implicitly included information in the tremendously huge amount of data, which is of 50 gigabytes' large. Another difficulty is, that twtich does not contain detailed game information, like game category.
+
+	To answer question two, need to make careful definitions about "time frame". And also, to convey a reasonable result, want to try different perspectives.
+
+2.
+	ETL work took a lot of efforts because the data we download using twitch api and giantbomb api was dirty. First made advantage of python regular expression operation package to clean the collected json files, so that they could be read by pyspark. Afterwards, mainly use pyspark to convert json strings into featurized dataframes.
+
+	I split the original twitch data into two big tables: stream table and channel table. The former one contains data about live streams, and the latter one is about information of channels. Furthermore, join the game information in stream table with 
+

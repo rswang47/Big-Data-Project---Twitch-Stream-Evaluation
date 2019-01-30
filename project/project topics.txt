@@ -1,0 +1,36 @@
+1. which game is most popular?
+	1) by simply count
+	2) by calculate the sum of viewers
+	* which game is most popular according to time frame? (morning, night)
+	* or according to language?
+2. which language is most used on twitch
+	1）channel number
+	2) game list
+	3) viewers
+
+3. what time frame is best for broadcasters?
+	- for different categories of games
+	- for different language
+
+4. Population growth
+5. Machine Learning
+	- predictions about the popularities about games
+		- for different categories
+	- predictions for streams
+		with or without the data from 2015
+	- predict the best time for streamers
+		number of viewers of each time frame
+		weekday or weekends
+		holiday
+		events
+
+6. Why a stream is popular?
+	- resolution, average fps, delay
+	- game category
+
+
+7. Game
+	- Game category
+	- Game trend
+	- Game rate
+	- Get top 20 games for each day
